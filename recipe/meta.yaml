@@ -31,6 +31,8 @@ requirements:
     - xtb-python
     - pynauty
     - openbabel
+    - mendeleev
+    - tqdm
 
 test:
   imports:

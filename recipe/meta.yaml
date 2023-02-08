@@ -1,5 +1,5 @@
 {% set name = "architector" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/architector-{{ version }}.tar.gz
-  sha256: 92975e35e82ecf4bb991f9cc95155157cbb11ca02d3c60c5a4a9be87a4b59df9
+  sha256: d7f764c34b9d9b4630dbc7a9a6fe5e45a4549b616b6ab79cbcfbe8a139d924a6
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   noarch: python
 
 requirements:

@@ -1,11 +1,11 @@
-About architector
-=================
+About architector-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/architector-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/lanl/Architector
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/architector-feedstock/blob/main/LICENSE.txt)
 
 Summary: The architector python package - for 3D inorganometallic complex design.
 

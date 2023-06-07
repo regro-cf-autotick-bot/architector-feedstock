@@ -1,5 +1,5 @@
 {% set name = "architector" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/architector-{{ version }}.tar.gz
-  sha256: d9588a95e9781296d3b6af798eebb50e78924755afd384931ef8e813fc6f0c64
+  sha256: fe63d597d6b5813822d05b866d4742db4f5d9215dacd95519e39acd4649dcd33
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -33,6 +33,7 @@ requirements:
     - openbabel
     - mendeleev
     - tqdm
+    - sqlalchemy <2.0.0
 
 test:
   imports:

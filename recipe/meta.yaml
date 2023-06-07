@@ -33,6 +33,7 @@ requirements:
     - openbabel
     - mendeleev
     - tqdm
+    - sqlalchemy <2.0.0
 
 test:
   imports:

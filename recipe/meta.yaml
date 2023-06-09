@@ -11,7 +11,7 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   noarch: python
 
 requirements:
@@ -33,7 +33,7 @@ requirements:
     - openbabel
     - mendeleev
     - tqdm
-    - sqlalchemy <2.0.0
+    - sqlalchemy
 
 test:
   imports:
